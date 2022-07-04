@@ -1,0 +1,25 @@
+{
+  "name": "get-minter-nft",
+  "version": "1.0.0",
+  "description": "Get minter NFT (Solana)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/docongminh/get-minter-nft.git"
+  },
+  "author": "@minhdocs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/docongminh/get-minter-nft/issues"
+  },
+  "homepage": "https://github.com/docongminh/get-minter-nft#readme",
+  "dependencies": {
+    "@solana/spl-token": "^0.2.0",
+    "@solana/web3.js": "^1.46.0",
+    "commander": "^9.0.0",
+    "dotenv": "^16.0.1"
+  }
+}
